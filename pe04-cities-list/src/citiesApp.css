@@ -1,0 +1,59 @@
+/* styling for main display menu */
+.display {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for display menu title */
+.display-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Styling for display menu links */
+.display-links {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  margin-top: 30px;
+}
+
+/* Styling for all anchor tags in display section */
+.display a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+/* Container for display menu and city list */
+.display-tab {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for add city button */
+.add-city {
+  color: white; 
+  background-color:#0575FF;
+  border: 1px solid #0575FF; 
+  padding: 8px 20px; 
+  border-radius: 5px; 
+  margin-top: 20px;
+}
+
+
+
+
+
+  
